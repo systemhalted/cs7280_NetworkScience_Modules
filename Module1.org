@@ -1,0 +1,61 @@
+#+title: CS 7280 - Network Science
+#+subtitle: Module 1
+
+* Lesson 1
+
+** Overview
+**** Learning Objectives
+Students will be able to:
+
+    Define “network science” 
+    Understand its history and connections with other disciplines
+    Identify some network science applications
+**** Required and Recommended Reading
+***** Required Reading
+Chapter-1 from A-L. Barabási, [[http://barabasi.com/networksciencebook/][Network Science]],  2015.
+***** Recommended Reading
+Read at least one of the following papers, depending on your interests:
+
+
+     - Networks in Epidemiology: [[https://www.aaai.org/ojs/index.php/aimagazine/article/view/2283][An Integrated Modeling Environment to Study the Co-evolution of Networks, Individual Behavior and Epidemic]]s (Links to an external site.) by Chris Barrett et al.
+
+    -  Networks in Biology: [[http://www.plantcell.org/content/19/11/3327.short][Network Inference, Analysis, and Modeling in Systems Biology]] (Links to an external site.)  by Reka Albert
+
+     - Networks in Neuroscience: [[http://www.nature.com/nrn/journal/v10/n3/full/nrn2575.html][Complex brain networks: graph theoretical analysis of structural and functional systems]](Links to an external site.) by Ed Bullmore and Olaf Sporns
+
+     - Networks in Social Science: [[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.226.935&rep=rep1&type=pdf][Network Analysis in the Social Sciences]](Links to an external site.)  by Stephen Borgatti et al.
+
+      - Networks in Economics: [[https://www.sg.ethz.ch/publications/2009/schweitzer2009economic-networks-the/][Economic Networks: The New Challenges]](Links to an external site.) (Links to an external site.)  by Frank Schweitzer et al.
+
+     - Networks in Ecology: [[https://www.sciencedirect.com/science/article/abs/pii/S1439179107000576?via%3Dihub][Networks in Ecology]](Links to an external site.)  by Jordi Bascompte
+
+     - Networks and the Internet: [[http://www.ee.ucl.ac.uk/~mrio/papers/hamedjrnl_camera.pdf][Network Topologies: Inference, Modelling and Generation]] (Links to an external site.)  by Hamed Haddadi et al.
+
+** What is Network Science?
+Let's first start with the obvious question: What is network science?
+
+One possible definition is the following: 
+
+The study of complex systems focusing on their architecture, i.e., on the network, or graph, that shows how the system components are interconnected.
+
+In other words, Network Science or NetSci focuses on a network representation of a system that shows how the system components are interconnected. To understand this definition further, let’s first explore the concept of Complex Systems.
+
+** Complex Systems
+
+[[./images/l1_1.png]]
+
+The image above shows a microprocessor, a human brain, an online social network, and a fighter jet. On the surface, you may think that these systems have nothing in common!
+
+However, they all have some common fundamental properties:
+
+      1. Each of them consists of many autonomous parts, or modules – in the same way, that a large puzzle consists of many little pieces. The microprocessor, for example, consists of mostly transistors and interconnects. The brain consists of various cell types, including excitatory neurons, inhibitory neurons, glial cells, etc.
+      2. The parts of each system are not connected randomly or in any other trivial manner – on the contrary, the system only works if the connections between the parts are highly specific (for example, we would not expect an electronic device to work if its transistors were randomly connected). These interconnections between the system components define the architecture of the system – or in other words, the network representation of the system.
+      3. The interactions between connected parts are also non-trivial. A trivial interaction would be, mathematically, a linear relation between the activity of two parts. On the contrary, as we will discuss later in the course, in all interesting systems at least, these interactions are non-linear.
+
+To summarize, Complex Systems have:
+
+   -  Many and heterogeneous components
+   - Components that interact with each other through a (non-trivial) network
+   - Non-linear interactions between components
+
+Next, we’ll discuss Trivial Networks versus Complex Networks.
